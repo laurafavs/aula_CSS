@@ -18,7 +18,11 @@
            color: rgb(59, 8, 8)
         }
         #teste1{
-            background: rgb(143, 117, 143);
+            color: rgb(36, 27, 35);
+            border: 5px solid #fcf7bb;
+            border-radius: 10px;
+            background: #fff789;
+            padding: 10px;
         }
         .exemplo-back {
             height: 300px;
