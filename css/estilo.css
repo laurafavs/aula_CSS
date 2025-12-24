@@ -67,3 +67,48 @@
             background: #000000;
             color: white;
         }
+        a.button{
+            text-decoration: none;
+            padding: 5px;
+            border-color: #080820;
+            border: 2px solid;
+            border-radius: 5px;
+        }
+        a.button:hover {
+            background: #080820;
+            color: white;
+        }
+        a.button_menu{
+            text-decoration: none;
+            color:rgb(36, 27, 35)
+        }
+        a.button_menu:hover {
+            text-decoration: underline;
+            color: rgb(126, 0, 111);
+        }
+
+        a.button_icone{
+            text-decoration: none;
+            background-color: rgb(0, 168, 146);
+            color: rgb(51, 51, 51);
+            padding: 20px;
+            border-radius: 40px;
+        }
+        a.button_icone:hover {
+            background-color: rgb(0, 207, 180);
+            color: rgb(51, 51, 51);
+            text-decoration-line: underline;
+            border: 3px solid rgb(63, 196, 178);
+        }
+        a.button_shadow {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            background-color: rgb(151, 199, 75);
+            padding: 10px;
+            box-shadow: 4px 4px 8px rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+        a.button_shadow:hover {
+            background-color: rgb(255, 227, 104);
+
+        }
