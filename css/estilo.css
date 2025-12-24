@@ -55,6 +55,7 @@
             padding: 5px 10px 8px;
             border-radius: 5px;
             text-decoration: none;
+            text-shadow: #e5ff00 0.5px 0.5px 0.5px;
         }
         .botao:hover {
             background: #000000;
