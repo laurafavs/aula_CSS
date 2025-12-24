@@ -26,9 +26,13 @@
             padding: 10px;
         }
         .exemplo-back {
-            height: 300px;
+            max-height: 200px;
+            max-width: 500px;
+            margin: auto;
+            padding: 10px;
             background: url('../img/fundopapel.jpg');
             background-size: cover;
+            text-align: center;
         }
         h1 {
             color:rgb(75, 0, 66);
