@@ -6,8 +6,8 @@
             font-family: 'Roboto Mono', monospace;
             color: #080820;
             margin: 10px;
-            background-color: #f8f4b4;
-            padding : 10px;
+            background-color: linear-gradient(135deg, #134E4A 0%, #059669 50%, #10B981 100%);
+            padding: 10px;
             margin-bottom: 20px;
         }
 
@@ -40,20 +40,19 @@
         }
         h1 {
             color:rgb(75, 0, 66);
-            margin-bottom: 80px;
-            margin-top: 1px;           
-            height: 650px;
-            background: url('../img/peixes.jpg');
-            background-size: cover;
-            background-position: top;
-            text-align: center;
-            border-radius: 10px;
-            padding-top: 50px;
             letter-spacing: 7px;
             font-family: "Roboto Mono", monospace;
             font-family: 'Caprasimo', cursive;
             font-size: 50px;
+            text-align: center;
+            display:inline-block;
+            width: 80%;
+            height: 300px;
+            background: url('../img/peixes.jpg');
+            background-position: top center;
+            border-radius: 10px;
         }
+
         .botao {
             margin-left: 33%;
             background: #121612;
