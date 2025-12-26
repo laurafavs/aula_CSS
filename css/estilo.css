@@ -37,6 +37,7 @@
             background: url('../img/fundopapel.jpg');
             background-size: cover;
             text-align: center;
+            border-radius: 10px;
         }
         h1 {
             color:rgb(75, 0, 66);
@@ -129,14 +130,14 @@
         a.button_icone{
             text-decoration: none;
             background-color: rgb(0, 168, 146);
-            color: rgb(51, 51, 51);
+            color: rgb(255, 250, 228);
             padding: 20px;
             border-radius: 40px;
         }
         a.button_icone:hover {
             background-color: rgb(0, 207, 180);
-            color: rgb(51, 51, 51);
-            text-decoration-line: underline;
+            color: rgb(255, 227, 133);
+            text-decoration-line: none;
             border: 3px solid rgb(63, 196, 178);
         }
         a.button_shadow {
@@ -150,4 +151,23 @@
         a.button_shadow:hover {
             background-color: rgb(255, 227, 104);
 
+        }
+
+        li{
+            display:inline-block;
+            margin-right: 30px;
+        }
+
+        .menu{
+            background-color: rgb(250, 192, 66);
+            padding: 25px;
+            border-radius: 10px;
+            overflow: auto;
+            position:sticky;
+            top:0;
+            z-index: 5;
+        }
+
+        .login{
+            float: right;
         }
