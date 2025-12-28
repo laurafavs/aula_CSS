@@ -2,13 +2,16 @@
         
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-        body {
+       
+    body {
             font-family: 'Roboto Mono', monospace;
             color: #080820;
             margin: 10px;
-            background-color: linear-gradient(135deg, #134E4A 0%, #059669 50%, #10B981 100%);
-            padding: 10px;
             margin-bottom: 20px;
+            background-image: url('../img/roxo.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            padding-bottom: 20px;
         }
 
         p {
@@ -40,7 +43,7 @@
             border-radius: 10px;
         }
         h1 {
-            color:rgb(75, 0, 66);
+            color:rgb(249, 255, 245);
             letter-spacing: 7px;
             font-family: "Roboto Mono", monospace;
             font-family: 'Caprasimo', cursive;
@@ -56,6 +59,7 @@
             display:inline-block;
             background: url('../img/peixes.jpg');
             background-size: cover;
+            background-position: bottom;
             border-radius: 10px;
             border: 3px solid #37ffc0;
         }
@@ -117,6 +121,7 @@
         a.button:hover {
             background: #080820;
             color: white;
+            padding: 10px;
         }
         a.button_menu{
             text-decoration: none;
@@ -139,6 +144,7 @@
             color: rgb(255, 227, 133);
             text-decoration-line: none;
             border: 3px solid rgb(63, 196, 178);
+            opacity: 0.8;
         }
         a.button_shadow {
             color: rgb(0, 0, 0);
