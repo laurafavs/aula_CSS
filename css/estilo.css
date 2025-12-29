@@ -104,6 +104,8 @@
             padding-bottom: 10px;
         }
 
+
+
         .botao {
             margin-left: 33%;
             background: #121612;
@@ -117,103 +119,115 @@
             background: #000000;
             color: white;
         }
-        a.button{
-            text-decoration: none;
-            padding: 5px;
-            border-color: #080820;
-            border: 2px solid;
-            border-radius: 5px;
-        }
-        a.button:hover {
-            background: #080820;
-            color: white;
-            padding: 10px;
-        }
+
+
+
+
+
+
+        
         a.button_menu{
+            color: rgb(255, 61, 93);
+            background: #232349;
+            border-radius: 20px;
             text-decoration: none;
-            color:rgb(36, 27, 35)
-        }
-        a.button_menu:hover {
-            text-decoration: underline;
-            color: rgb(126, 0, 111);
-        }
-
-        a.button_icone{
-            text-decoration: none;
-            background-color: rgb(0, 168, 146);
-            color: rgb(255, 250, 228);
-            border-radius: 40px;
-            padding: 20px;
-        }
-        a.button_icone:hover {
-            background-color: rgb(0, 207, 180);
-            color: rgb(255, 227, 133);
-            text-decoration-line: none;
-            border: 3px solid rgb(63, 196, 178);
-            opacity: 0.8;
-            border-radius: 40px;
-        }
-
-        .dropbtn{
-            text-decoration: none;
-            background-color: rgb(0, 168, 146);
-            color: rgb(255, 250, 228);
-            border-radius: 40px;
-            padding: 20px;
-            display:inline-block;
-            text-decoration: none;
-            display: inline-block;
-            overflow: visible;
-            z-index: 6;
-
-        }
-
-        li a:hover, .dropdown:hover .dropbtn{
-            text-decoration: none;
-            background-color: rgb(0, 168, 146);
-            color: rgb(255, 208, 0);
-            border-radius: 40px;
-            display: block;
             padding: 5px;
-            overflow: visible;
-            z-index: 6;
+
         }
 
-        .dropdown{
+        a.button_menu:hover {
+            color: rgb(255, 247, 248);
+            background: rgb(255, 61, 93);
+            border-radius: 20px;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+
+
+        .button_drop {
+            position: relative;
             display: inline-block;
-            position: absolute;
-            top: -20px;
-            z-index: 6;
-        }
-
-        .dropdown-content{
-            display: none;
-            position: absolute;
-            left: 30px;
-            overflow: visible;
-            z-index: 6;
-        }
-
-        .dropdown-content a{
-            color: white;
-            display:block;
-            overflow: visible;
-            z-index: 6;
-
-        }
-
-        .dropdown:hover .dropdown-content{
-            display:inline-block;
-            overflow: visible;
-            z-index: 6;
         }
         
-        .dropdown-content a:hover {
+
+        .dropdown{
+            color: rgb(255, 61, 93);
+            background: #232349;
+            border: none;
+            border-radius: 20px;
+            text-decoration: none;
+            padding: 5px;
             display: inline-block;
-            overflow: visible;
-            z-index: 6;
-            
         }
+
+        .drop_content {
+            color:#000000;
+            display: none;
+            position:absolute;
+            border-radius: 10px;
+            z-index: 101;
+            top: 100%;
+            background-color: rgb(207, 124, 207);
+
+        }
+
+        .drop_content a {
+            color:#00201f;
+            display: block;
+            text-decoration: none;
+            padding: 12px 16px;
+        }
+
+        .drop_content a:hover {
+            background: #e5e745;
+            border-radius: 10px;
+        }
+
+        .button_drop:hover .drop_content{
+            display: block;
+        }
+
+        .button_drop:hover .dropdown{
+            color:#efffe9;
+        }
+
+
+        .button_login{
+            color:#e5e5fd;
+            background-color: #7bb664;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-left: auto;
+            position:relative;
+            display:inline-block;
+            padding: 5px;
+        }
+
+        .button_login:hover {
+            background: rgb(51, 241, 51);
+        }
+
+        .menu{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            align-items: center;
+            gap: 30px;
+            background-color: rgb(250, 192, 66);
+            border-radius: 10px;
+            position:sticky;
+            top:0;
+            z-index: 100;
+        }
+
+        .login{
+            margin-left:auto;
+        }
+
+
+
 
         a.button_shadow {
             color: rgb(0, 0, 0);
@@ -225,23 +239,9 @@
         }
         a.button_shadow:hover {
             background-color: rgb(255, 227, 104);
-
         }
 
-        li{
-            display:inline-block;
-            margin: 50px;
-        }
 
-        .menu{
-            background-color: rgb(250, 192, 66);
-            border-radius: 10px;
-            overflow: auto;
-            position:sticky;
-            top:0;
-            z-index: 5;
-        }
 
-        .login{
-            float: right;
-        }
+
+
