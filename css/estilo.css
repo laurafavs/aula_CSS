@@ -37,16 +37,7 @@
             background: #fff789;
             padding: 10px;
         }
-        .exemplo-back {
-            max-height: 200px;
-            max-width: 500px;
-            margin: auto;
-            padding: 10px;
-            background: url('../img/fundopapel.jpg');
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-        }
+
         h1 {
             color:rgb(249, 255, 245);
             letter-spacing: 7px;
@@ -242,6 +233,42 @@
         }
         a.button_shadow:hover {
             background-color: rgb(255, 227, 104);
+        }
+
+        .exemplo-back {
+            position:relative;
+            display:inline-block;
+            max-height: 200px;
+            max-width: 500px;
+            margin: auto;
+            padding: 10px;
+            background: url('../img/fundopapel.jpg');
+            background-size: cover;
+            text-align: center;
+            border-radius: 10px;
+            
+        }
+
+        .card {
+            text-align: center;
+            display:inline-block;
+            width: 210px;
+            height: auto;
+            padding: 10px;
+            background: whitesmoke;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .text_card {
+            white-space:nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 15px;
+        }
+
+        .card:hover .text_card {
+            white-space: normal;
         }
 
 
