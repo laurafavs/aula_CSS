@@ -142,8 +142,8 @@
             text-decoration: none;
             background-color: rgb(0, 168, 146);
             color: rgb(255, 250, 228);
-            padding: 20px;
             border-radius: 40px;
+            padding: 20px;
         }
         a.button_icone:hover {
             background-color: rgb(0, 207, 180);
@@ -151,7 +151,71 @@
             text-decoration-line: none;
             border: 3px solid rgb(63, 196, 178);
             opacity: 0.8;
+            border-radius: 40px;
+            padding: 20px;
         }
+
+        .dropbtn{
+            text-decoration: none;
+            background-color: rgb(0, 168, 146);
+            color: rgb(255, 250, 228);
+            border-radius: 40px;
+            padding: 20px;
+            display:inline-block;
+            text-decoration: none;
+            display: inline-block;
+            overflow: visible;
+            z-index: 6;
+
+        }
+
+        li a:hover, .dropdown:hover .dropbtn{
+            text-decoration: none;
+            background-color: rgb(0, 168, 146);
+            color: rgb(255, 208, 0);
+            border-radius: 40px;
+            display: block;
+            padding: 5px;
+            overflow: visible;
+            z-index: 6;
+        }
+
+        .dropdown{
+            display: inline-block;
+            position: absolute;
+            top: -20px;
+            z-index: 6;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            left: 30px;
+            overflow: visible;
+            z-index: 6;
+        }
+
+        .dropdown-content a{
+            color: white;
+            display:block;
+            overflow: visible;
+            z-index: 6;
+
+        }
+
+        .dropdown:hover .dropdown-content{
+            display:inline-block;
+            overflow: visible;
+            z-index: 6;
+        }
+        
+        .dropdown-content a:hover {
+            display: inline-block;
+            overflow: visible;
+            z-index: 6;
+            
+        }
+
         a.button_shadow {
             color: rgb(0, 0, 0);
             text-decoration: none;
@@ -167,12 +231,11 @@
 
         li{
             display:inline-block;
-            margin-right: 30px;
+            margin: 50px;
         }
 
         .menu{
             background-color: rgb(250, 192, 66);
-            padding: 25px;
             border-radius: 10px;
             overflow: auto;
             position:sticky;
