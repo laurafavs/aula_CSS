@@ -2,13 +2,16 @@
         
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+*{
+    box-sizing: border-box;
+}
        
     body {
             font-family: 'Roboto Mono', monospace;
             color: #080820;
             margin: 10px;
             margin-bottom: 20px;
-            background-image: radial-gradient(purple,rgb(231, 110, 130),rgb(255, 70, 70),rgb(252, 143, 70),rgb(74, 223, 74),rgb(168, 83, 168), purple);
+            background-image: radial-gradient(rgb(204, 133, 204),rgb(247, 180, 191),rgb(255, 111, 111),rgb(255, 175, 121),rgb(145, 224, 145),rgb(168, 83, 168), rgb(219, 165, 219));
             padding-bottom: 20px;
         }
 
@@ -68,7 +71,7 @@
             left:20px;
             top: 25px;
             z-index:3;
-            width: 400px;
+            width: 500px;
             height: 200px;
             background-color: rgba(255, 255, 255, 0.7);
             display:inline-block;
@@ -94,7 +97,6 @@
             text-align: justify;
             font-size: 16px;
             color: rgb(36, 27, 35);
-            padding-bottom: 10px;
         }
 
 
@@ -222,9 +224,6 @@
             margin-left:auto;
         }
 
-
-
-
         a.button_shadow {
             color: rgb(0, 0, 0);
             text-decoration: none;
@@ -274,25 +273,71 @@
             white-space: normal;
         }
 
- /* Smartphones (600px para baixo) */
-@media only screen and (max-width: 600px) 
-  
+        /* Implementação da "outra página" */
+.header_outra {
+    background-image: url('../img/clouds.jpg');
+    margin: 0;
+    padding: 150px;
+    border-radius: 10px;
+}
 
-/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
-@media only screen and (min-width: 600px) {...}
+.img_lights{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    background-image: url('../img/luzes.jpg');
+    background-size: cover;
+    flex-shrink: 0;
+    border-radius: 10px;
+    z-index: 10;
+}
 
-/*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) {...}
+.img_lamp {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    background-image: url('../img/lamp.jpg');
+    background-size: cover;
+    flex-shrink: 0;
+    margin:20px;
+    margin-top: 300px;
+    margin-left: -200px;
+    border-radius: 10px;
+    z-index: 10;
+}
 
-/* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px) {...}
+.container_outra {
+    background: #efff94;
+    padding:30px;
+    border-radius:10px;
+    display: flex;
+    z-index: 9;
+}
 
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) {...}
+p.container_text {
+    display: flex;
+    margin-left: 0;
+    padding: 20px;
+    z-index: 11;
+    position: relative;
+}
 
+.container_coffe {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc078;
+    margin-top:30px;
+    border-radius: 10px;
+    padding:50px;
+}
 
-
-
-
+.img_coffe{
+    display: flex;
+    height:500px;
+    background-image: url("../img/coffe.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
 
 
